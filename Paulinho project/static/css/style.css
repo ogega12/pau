@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    background-image: url("deckerz.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+    background-color
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    justify-content: center;
+}
+nav ul a{
+    color: magenta;
+}
+main{
+    max-width: 80%;
+    margin:10px auto;
+}
+section{
+    /* border:1px solid blue */
+    margin: 10px 0px;
+    box-shadow: 5px 5px 5px blue;
+    border-radius: 5px;
+    background-color: azure;
+}
+#container{
+    display: flex;
+}
+.proj{
+    border: 3px solid green;
+padding: 2px;
+margin-right: 5px; border-radius: 5px;
+ box-shadow: 2px 2px 2px 2px green;
+}
+form{
+    width: 50%;
+    margin: 10px auto;
+
+}
+form label{
+    display: block;
+    font-weight: bold;
+}
+ form input, textarea{
+    border: 1px solid navy;
+    width: 100%;
+    border-radius: 10px;
+ }
+    

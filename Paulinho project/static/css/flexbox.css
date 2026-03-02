@@ -1,0 +1,36 @@
+body{
+    background-color: lightgreen;
+}
+h2{
+    color: darkblue;
+}
+h3{
+    color: linen;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.service{
+    background-color: rgb(241, 81, 241);
+    border: 1px black solid;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+}
+
+/* responsiveness */
+@media(max-width: 768px){
+    body{
+        background-color: aqua;
+    }
+    #container{
+        flex-direction: column;
+    }
+}
