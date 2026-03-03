@@ -22,7 +22,14 @@ ul li a{
 ul li a:hover{
     background-color: rgb(217, 215, 208);
     color: blue;
-    #l1{
-        height: 70vh;
-        background: url("../images/deckerz.webp") no-repeat center center/cover;
     }
+    #container{
+    display: flex;
+}
+.proj{
+    border: 1px solid turquoise ;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px skyblue;
+    margin-right: 5px;
+}
