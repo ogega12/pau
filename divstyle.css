@@ -1,0 +1,15 @@
+#myDiv{
+    background-color:plum;
+    /* border-width: 1px;
+    border-color: black;
+    border-style: dashed; */
+    border: 1px navy solid;
+    height: 200px;
+    padding: 50px 20px 10px 30px;
+    margin: 0;
+}
+.mission{
+    background-color: cornflowerblue;
+    border: 2px red dashed;
+    padding: 25px;
+}

@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    background-color: rgb(161, 216, 216);
+}
+header{
+    background-color
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    justify-content: center;
+}
+nav ul a{
+    color: magenta;
+}
+main{
+    max-width: 80%;
+    margin:10px auto;
+}
+section{
+    /* border:1px solid blue */
+    margin: 10px 0px;
+    box-shadow: 5px 5px 5px blue;
+    border-radius: 5px;
+    background-color: azure;
+}
+    
+h2{
+    color: aqua;
+    text-align: center;
+}
+h3{
+    color: darkorange;
+    text-align: center;
+}
+.profile{
+    width: 200px;
+    border-radius: 50%;
+}
+#container{
+    display: flex;
+}
+.proj{
+    border: 3px solid green;
+padding: 2px;
+margin-right: 5px; border-radius: 5px;
+ box-shadow: 2px 2px 2px 2px green;
+
+}
+form{
+    margin: 10px;
+    width: 70%;
+    text-align: center;
+    
+} 
+form label{
+    display: block;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    background-color: rgb(157, 88, 3);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: justify;
+}
+footer{
+    background-color: darkcyan;
+    padding: 10px;
+    text-align: center;
+}
+
