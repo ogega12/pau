@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: linen;
+}
+header{
+    background-color: rgb(217, 161, 40);
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: navy;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav ul a:hover{
+    background-color: aqua;
+    color: red;
+}
+main{
+    max-width: 80%;
+    margin: 10px auto;
+}
+section{
+    /* border: 2px solid navy; */
+    padding: 20px;
+    margin: 10px 0px;
+    box-shadow: 10px 10px 10px navy;
+    border-radius: 10px;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+h3{
+    color: lightseagreen;
+}
+.profile{
+    border-radius: 70px;
+}
+
+#container{
+    display: flex;
+}
+.proj{
+    border: 1px solid turquoise ;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px skyblue;
+    margin-right: 5px;
+}
+body{
+    background-image: url(static/Roddy\ Ricch\ -\ The\ Box\ [Official\ Music\ Video]\ -\ Roddy\ Ricch.mp3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+
+}
+footer{
+    background-color: rgb(69, 193, 231);
+    padding: 10px;
+    text-align: center;
+ }
+ footer a img{
+    border-radius: 25px;
+ }

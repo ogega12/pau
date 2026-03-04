@@ -1,0 +1,76 @@
+h1{
+    animation: myanimation 10s infinite;
+}
+#one{
+    color: cornflowerblue;
+    /* animation-name: deepseek;
+    animation-duration: 3s;
+    animation-iteration-count: 5; */
+    animation: deepseek 3s infinite;
+}
+
+#div1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    animation: rotate 5s 5;
+}
+@keyframes deepseek{
+    0%{
+        color: brown;
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: pink;
+    }
+    75%{
+        color: orange;
+    }
+    100%{
+        color: yellowgreen;
+    }
+}
+@keyframes myanimation{
+    from{
+        transform: translateX(0);
+        color: red;
+    }
+    to{
+        transform: translateX(800px);
+        color: orange;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+        background-color: rgb(252, 153, 5);
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: greenyellow;
+    }
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: navy;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav ul a:hover{
+    background-color: aqua;
+    color: red;
+}
+    
+
+
